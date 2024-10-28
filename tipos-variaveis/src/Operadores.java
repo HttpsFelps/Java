@@ -27,7 +27,7 @@ public class Operadores {
             // Operadores Relacionais
             boolean ehMaior = a > b;  // true, pois 10 é maior que 5
             boolean ehMenor = a < b;  // false, pois 10 não é menor que 5
-            boolean ehIgual = a == b; // false, pois 10 não é igual a 5
+            boolean ehIgual = a == b; // false, pois 10 não é igual a 5 (para objetos usamos a.equals(b))
             boolean ehDiferente = a != b; // true, pois 10 é diferente de 5
     
             // Operadores Lógicos
