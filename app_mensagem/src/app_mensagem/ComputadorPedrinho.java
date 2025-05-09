@@ -8,15 +8,12 @@ public class ComputadorPedrinho {
 		String[] apps = {"msn", "fbk", "tele"};
 		for(int i = 0; i <= apps.length; i++) {
 			if (i==0){
-				msn.setApp("MSN menssenger");
 				msn.enviarMensagem();
 				msn.receberMensagem();
 			}else if(i==1) {
-				fbk.setApp("Facebook menssenger");
 				fbk.enviarMensagem();
 				fbk.receberMensagem();
 			}else {
-				tele.setApp("Telegram");
 				tele.enviarMensagem();
 				tele.receberMensagem();
 			}
