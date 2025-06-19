@@ -1,4 +1,4 @@
-package com.exemplo;
+package com.exemplo.classes;
 
 public class Obj {
     private Integer num;
